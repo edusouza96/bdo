@@ -22,16 +22,21 @@
               <li class="nav-item">
                 <router-link to="/" class="nav-link">Home</router-link>
               </li>
+              
+              <li class="nav-item">
+                <router-link to="/vagas" class="nav-link">Vagas</router-link>
+              </li>
+             
               <li class="nav-item">
                 <router-link to="/perguntas-frequentes" class="nav-link">Perguntas Frequentes</router-link>
               </li>
+              
             </ul>
           </div>
         </div>
       </div>
     </nav>
   </div>
-  <router-view />
 </template>
 
 <script>

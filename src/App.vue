@@ -3,6 +3,7 @@
     <Sidebar/>
     <TitlePage/>
   </div>
+  <router-view />
 </template>
 
 <script>

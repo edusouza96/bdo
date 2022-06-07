@@ -1,5 +1,5 @@
 <template>
-  <header class="title-page">
+  <header class="title-page" v-if="title">
     <div class="p-4 mb-4 bg-secondary bg-gradient bg-opacity-25">
       <div class="container-fluid">
         <h2>
@@ -16,7 +16,7 @@ export default {
   computed: {
     title(){
         let title = this.$route.path.replace('-', ' ').replace('/', '');
-        return title ? title : 'Home'
+        return title ? title : null;
     }
   },
 };

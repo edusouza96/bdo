@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <h1>Banco de Oportunidades de Canoas</h1>
   </div>
 </template>
 
