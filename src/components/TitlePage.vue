@@ -24,6 +24,9 @@ export default {
 
 <style scoped>
 h2{
-    text-transform: capitalize;
+  text-transform: capitalize;
+}
+.title-page {
+  margin-top: 4em;
 }
 </style>

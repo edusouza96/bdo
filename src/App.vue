@@ -24,4 +24,7 @@
     background-color: #144334 !important;
     background-image: var(--bs-gradient)!important;
   } 
+  .text-canoas-secondary {
+    color: #42DBAB;
+  }
 </style>

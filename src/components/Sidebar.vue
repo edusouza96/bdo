@@ -46,10 +46,6 @@ export default {
 </script>
 
 <style scoped>
-  .sidebar{
-    margin-bottom: 5em;
-  }
-
   .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
   }
